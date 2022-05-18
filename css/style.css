@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+}
+
+.baner {
+  background-image: url("../img/baner.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  height: 500px;
+}
+.baner h1 {
+  color: #168039;
+}
+
+/*# sourceMappingURL=style.css.map */

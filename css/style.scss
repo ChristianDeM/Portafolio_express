@@ -1,0 +1,21 @@
+$color1: #00261C;
+$color2: #044D29;
+$color3: #168039;
+$color4: #45BF55;
+$color5: #96ED89;
+
+body{
+    background-color: black;
+}
+
+.baner{
+    
+    background-image:url('../img/baner.png');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    height: 500px;
+    h1{
+        color: $color3;
+    }
+}
