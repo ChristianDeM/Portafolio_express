@@ -4,18 +4,42 @@ $color3: #168039;
 $color4: #45BF55;
 $color5: #96ED89;
 
+p{
+    color: $color3;
+    font-size: 25px;
+}
+
+h2{
+    color: #96ED89;
+}
+
 body{
     background-color: black;
 }
-
+.margin{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 .baner{
     
     background-image:url('../img/baner.png');
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: fixed;
-    height: 500px;
+    height: 100%;
+  
     h1{
         color: $color3;
+        font-weight: 500;
+        font-size: 50px;
+        font-family: 'Oswald', sans-serif;
     }
+}
+
+.about
+{
+   i{
+       font-size: 50px;
+   }  
+   
 }

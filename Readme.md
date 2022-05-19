@@ -16,3 +16,7 @@ La pagina esta realizada con
 - #168039
 - #45BF55
 - #96ED89
+
+## Fuente 
+Oswald
+``font-family: 'Oswald', sans-serif;``

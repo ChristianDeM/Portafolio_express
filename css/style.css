@@ -1,5 +1,19 @@
+p {
+  color: #168039;
+  font-size: 25px;
+}
+
+h2 {
+  color: #96ED89;
+}
+
 body {
   background-color: black;
+}
+
+.margin {
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .baner {
@@ -7,10 +21,17 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
-  height: 500px;
+  height: 100%;
 }
 .baner h1 {
   color: #168039;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+}
+
+.about i {
+  font-size: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
