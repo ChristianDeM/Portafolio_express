@@ -9,6 +9,9 @@ La pagina esta realizada con
 - bootstrap ``5.3``
 - Sass 
 
+# animations 
+- AOS
+
 ## paletade colores
 
 - #00261C
@@ -20,3 +23,9 @@ La pagina esta realizada con
 ## Fuente 
 Oswald
 ``font-family: 'Oswald', sans-serif;``
+
+## img 
+
+https://www.pixeltrue.com/free-packs/minimalistic-illustrations#preview
+https://pixabay.com/es/
+

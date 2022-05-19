@@ -13,6 +13,10 @@ h2{
     color: #96ED89;
 }
 
+h4{
+    color: $color4;
+}
+
 body{
     background-color: black;
 }
@@ -33,13 +37,22 @@ body{
         font-weight: 500;
         font-size: 50px;
         font-family: 'Oswald', sans-serif;
+       
     }
 }
 
 .about
 {
+    height: 65%;
    i{
        font-size: 50px;
    }  
    
+}
+
+.card{
+     background-color: black; 
+     h5{
+         color: $color4;
+     }   
 }

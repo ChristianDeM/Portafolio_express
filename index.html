@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
 <body>
     <section>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -56,7 +57,7 @@
         <div class="container-fluid baner d-flex flex-column justify-content-center">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 class="text-center">Hola bienvenido a mi web personal</h1>
+                    <h1 class="text-center">Hola bienvenido a mi web personal.<span>&#160;</span></h1>
                 </div>
             </div>
             <div class="row Text-center">
@@ -70,16 +71,16 @@
         </div>
   </section>
 
-  <section id="about" class="margin">
+<section id="about" class="margin">
     <div class="container about  d-flex flex-column justify-content-center">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-right" >
            <h2>Sobre mi</h2>
            <p>Hola que tal. muchas gracias al entrar a mi pagina web.</p>
            <p>Siempre en movieminto en los cambios  constantes de la tecnlogia.</p> 
            <div class="row ">
              <h4>Un mundo de desarrollo</h4>
-              <div class="col-md-5  ">               
+              <div class="col-md-5">               
                 <i class="devicon-html5-plain colored"></i>
                 <i class="devicon-css3-plain colored"></i>
                 <i class="devicon-sass-original colored"></i>
@@ -91,13 +92,52 @@
               </div>
            </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6" data-aos="fade-left">
           <img src="img/baner.png" class="img-fluid" alt="">
         </div>
-
       </div>
     </div>
-  </section>
+</section>
+
+<section id="cards" class="margin">
+  <div class="container">
+    <div class="row">
+      <h4 class="text-center"> Desarrollos Webs</h4>
+      <div class="col-md-4">
+        <div class="card"  data-aos="flip-left">
+          <img src="img/web-development.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Constuyendo paginas webs rapidas para tu negocio.</h5>
+            <p class="card-text">Creamos tu pagina web estatica profesional lo mas compactas para tu servidor web.</p>
+            <br>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"  data-aos="flip-left">
+        <div class="card">
+          <img src="img/blogging.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tienes en mente algo distinto para tu web.</h5>
+            <p class="card-text">Creamos una web app para tu  negocio. Recuerda que si lo puedes pensar se puede programar.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"  data-aos="flip-left">
+        <div class="card" >
+          <img src="img/web-development.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Atencion personalizada.</h5>
+            <p class="card-text">Siempre en contacto  contigo en todo momento. Si tienes alguna duda con tu proyecto podemos ponernos en contacto  para resolverlo lo mas pronto posible.</p>
+        </div>
+        </div>
+    </div>
+  </div>
+</section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

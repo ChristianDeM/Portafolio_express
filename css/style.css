@@ -7,6 +7,10 @@ h2 {
   color: #96ED89;
 }
 
+h4 {
+  color: #45BF55;
+}
+
 body {
   background-color: black;
 }
@@ -30,8 +34,18 @@ body {
   font-family: "Oswald", sans-serif;
 }
 
+.about {
+  height: 65%;
+}
 .about i {
   font-size: 50px;
+}
+
+.card {
+  background-color: black;
+}
+.card h5 {
+  color: #45BF55;
 }
 
 /*# sourceMappingURL=style.css.map */
