@@ -25,7 +25,13 @@ body {
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
+  backdrop-filter: blur(10px);
   height: 100%;
+}
+.baner .blok {
+  width: 500px;
+  height: 500px;
+  margin: auto;
 }
 .baner h1 {
   color: #168039;
@@ -33,12 +39,20 @@ body {
   font-size: 50px;
   font-family: "Oswald", sans-serif;
 }
+.baner .blur {
+  backdrop-filter: blur(2px);
+}
 
 .about {
   height: 65%;
 }
 .about i {
   font-size: 50px;
+}
+.about .animations {
+  margin: auto;
+  height: 600px;
+  width: 600px;
 }
 
 .card {
@@ -60,6 +74,9 @@ body {
 
 footer {
   height: 20%;
+}
+footer i {
+  font-size: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
