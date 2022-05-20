@@ -3,6 +3,13 @@ p {
   font-size: 25px;
 }
 
+h1 {
+  color: #168039;
+  font-weight: 500;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+}
+
 h2 {
   color: #96ED89;
 }
@@ -22,24 +29,17 @@ body {
 
 .baner {
   background-image: url("../img/baner.png");
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
+  background-size: cover;
   height: 700px;
 }
-.baner .blok {
-  width: 500px;
-  height: 500px;
+.baner .anime {
+  width: 250px;
+  height: 250px;
   margin: auto;
-}
-.baner h1 {
-  color: #168039;
-  font-weight: 500;
-  font-size: 50px;
-  font-family: "Oswald", sans-serif;
-}
-.baner .blur {
-  backdrop-filter: blur(2px);
 }
 
 .about {
@@ -80,14 +80,8 @@ footer i {
 
 @media (max-width: 576px) {
   .about {
-    height: auto;
+    width: 100%;
   }
-
-  .baner .blok {
-    height: 300px;
-    width: 300px;
-  }
-
   .about .animations {
     height: 300px;
     width: 300px;
