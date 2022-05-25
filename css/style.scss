@@ -23,6 +23,10 @@ h2{
 h4{
     color: $color4;
 }
+h5{
+    font-size: 25px;
+    font-weight: bold;
+}
 h3{
     color: $color4;
 }
@@ -95,6 +99,16 @@ footer{
     }
 }
 
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus  {
+    background-color: $color3;
+    border-color: $color3;
+}
+
+.contacto{
+     label{
+         color: $color4;
+     }
+}
 @media (max-width: 576px) { 
    
 .baner{

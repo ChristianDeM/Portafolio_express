@@ -18,6 +18,11 @@ h4 {
   color: #45BF55;
 }
 
+h5 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
 h3 {
   color: #45BF55;
 }
@@ -80,6 +85,15 @@ footer {
 }
 footer i {
   font-size: 50px;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
+  background-color: #168039;
+  border-color: #168039;
+}
+
+.contacto label {
+  color: #45BF55;
 }
 
 @media (max-width: 576px) {
